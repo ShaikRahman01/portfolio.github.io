@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website - Shaik Rahman</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d28074b3e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoooo.png" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Network Support Engineer</p>
+                <h1>Hi,I'm <span>Rahman</span><br>From Hydrebad</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Picsart_24-03-16_23-04-39-557.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>👋 Hi there! I'm Shaik Rahman, a Network Engineer with a passion for building and maintaining reliable network infrastructures. With over 2 years of hands-on experience, I specialize in designing, configuring, and troubleshooting network devices to ensure seamless data transmission.</p>
+                            <br>🔧 In my previous role at Indiatech IT Solutions Pvt Ltd, I had the opportunity to manage and monitor networks, install and configure Cisco routers and switches, and provide end-user support to ensure smooth operation. I take pride in my ability to promptly resolve issues and keep networks running optimally.</P>
+                            <br>💻 My skills span across various networking technologies, including routing, switching, security, and virtualization. I'm proficient in Microsoft servers, Cisco devices, and security protocols, with a keen interest in ethical hacking and security practices.</P>
+                            <br>📚 Outside of work, I'm continuously expanding my knowledge through certifications and relevant coursework, such as Cisco Certified Specialist - Security Core and Cybersecurity Professional. I'm also fluent in multiple languages, including English, Hindi, Telugu, and Urdu.</P>
+                            <br>🚀 I'm excited about the opportunity to collaborate and contribute to projects that involve network engineering and system administration. Let's connect and explore how we can work together to achieve your goals!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Networking Technologies</span><br>Routing (RIP, OSPF, EIGRP, BGP), Switching (VLAN, DTP, VTP, STP, Inter-VLAN Routing), Cisco Devices (Routers: 2811, 2911; Switches: 2960, 3560), DHCP, NAT, ACL, HSRP, OSI Model, TCP/IP, Subnetting, MPLS.</li>
+                                <li><span>Security and VPN</span><br>VPN Technologies (GRE, IPSec, SSL, Site-to-Site, DMVPN), Basic ASA Firewall Configuration, Security Policies, ACLs.</li>
+                                <li><span>Windows Server</span><br>Installation and Configuration (2012 & 2016), Active Directory Domain Services (ADDS), DNS, DHCP, FSRM, Group Policy Management.</li>
+                                <li><span>Virtualization and System Administration</span><br>Hyper-V Virtualization, Windows Deployment Services (WDS), Internet Information Services (IIS) 8.0, Remote Access Service (RAS), Remote Desktop Service (RDS), Advanced Storage Solutions, Server Backup/Upgrade.</li>
+                                <li><span>Ethical Hacking and Security Policies</span><br>Footprinting, Scanning, Phishing, DOS/DDOS Protection, Security Best Practices.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Jul 2022 - Aug 2023</span><br>Network Support Engineer At INDIATECH IT SOLUTIONS PVT LTD</li>
+                                Click <a href="https://drive.google.com/file/d/1aHogyCCq5NsG1k8U5qv0b3t-iOMa4kS5/view">Here</a>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>MCA from Osmania University.</li>
+                                <li><span>2020</span><br>Bsc (Computer Science) from Telangana University.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>Cisco</span><br>Cisco Certified Specialist - Security Core</li>
+                                Click <a href="https://drive.google.com/file/d/1ROfu0OejeqoZq2W5sAT38qdwY2uQ8tn-/view">Here</a>
+                                <li><span>US-Council</span><br>Cybersecurity Professional</li>
+                                Click <a href="https://drive.google.com/file/d/1RNm8sz3HFJXh2CJjtzQai7Jw3GUCnmPD/view">Here</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!-- -------------services----------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Network Design and Configuration</h2>
+                    <p>Designing and configuring Cisco routers (2811, 2911) and switches (2960, 3560) to ensure efficient data transmission.<br>Implementing routing protocols (RIP, OSPF, EIGRP, BGP) and switching technologies (VLAN, VTP, STP, Ether Channel) for optimal network performance.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Security Solutions Implementation</h2>
+                    <p>Implementing basic ASA firewall configurations and security policies to enhance network security.
+                       <br>Configuring VPN technologies (GRE, IPSec, SSL) for secure remote access and site-to-site connectivity.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>Window Server Administration</h2>
+                    <p>Installation and configuration of Windows Server (2012 & 2016) and Active Directory Domain Services (ADDS) for centralized network management.
+                       <br>Managing DNS, DHCP, and Group Policy to ensure seamless integration with network infrastructure.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+ <!-- -------------------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Achievements</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Cisco (1).jpg">
+                <div class="layer">
+                    <h3>Cisco Certified Specialist - Security Core</h3>
+                    <p>Specialized in core security technologies, including network security, detection and remedation of threats.</p>
+                    <a href="https://www.credly.com/badges/1b3a26a2-d85d-47f0-9bd1-beba5f0538bf/whatsapp"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/3d-internet-secuirty-badge (1).jpg">
+                <div class="layer">
+                    <h3>Cybersecurity Professional | U.S Council</h3>
+                    <p>Certified in Cybersecurity fundamentals, Covering topics such as Ethical hacking, Penetration testing, and incident response.</p>
+                    <a href="https://drive.google.com/file/d/1RNm8sz3HFJXh2CJjtzQai7Jw3GUCnmPD/view"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                     <h3>E-commerce website(RED STORE)</h3>
+                     <p>Developed a fully functional e-commerce website, "RED Store" as a showcase project to demonstrate proficiency in web
+                        development using HTML, CSS, and JavaScript</p>
+                     <a href="https://shaikrahman01.github.io/Redstore.github.io/"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------------contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>Rahmanshaik996@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91 7036227773</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shaikrahman"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/+917036227773"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/ShaikRahman01"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Shaik Rahman's Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Shaik Rahman.All Rights Reserved</p>
+    </div>
+</div>
+
+
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby2zeyoqtRyVEIHfhMLx_kl-ho6X4CVVuPPhOGFYJXlZAKu2zvnkYK7H_dUWI_2UW1v/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
